@@ -6,7 +6,7 @@ using UnityEngine.Networking;
 
 public class OpenWeatherAPI : MonoBehaviour
 {
-    private static readonly string APIBaseUrl = "https://api.openweathermap.org/data/2.5/forecast/weather?q={0}&cnt=5&appid={1}";
+    private static readonly string APIBaseUrl = "https://api.openweathermap.org/data/2.5/weather?q={0}&APPID={1}";
 
     [Tooltip("The API key that allows access to the OpenWeatherMap API")]
     public string apiKey;

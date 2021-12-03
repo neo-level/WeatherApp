@@ -70,7 +70,6 @@ public class FetchResults : MonoBehaviour
             DayCardModel day = new DayCardModel(response.list[index], sprite);
             DayCard dayCard = dayCards[index];
             dayCard.SetModel(day);
-            
         }
     }
 }
