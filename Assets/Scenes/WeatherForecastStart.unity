@@ -1492,7 +1492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cb94f367e58a4e428bad23145310210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: 
+  apiKey: c11fb0fb6b6bb2449adfc1187550b6c9
 --- !u!114 &1050571376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   cityInputField: {fileID: 0}
   dayCards: []
   spriteIcons: []
-  panel: {fileID: 0}
+  panel: {fileID: 822382824}
 --- !u!1 &1069815390
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,6 +2098,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f827624de72dbc740ad1b8bc9dc082d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  celsius: {fileID: 0}
+  fahrenheit: {fileID: 0}
+  image: {fileID: 0}
+  days: []
 --- !u!1001 &1863978977
 PrefabInstance:
   m_ObjectHideFlags: 0
