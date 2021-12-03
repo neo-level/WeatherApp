@@ -1,18 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using System;
 
-public class ResponseTemperature : MonoBehaviour
+[Serializable]
+public class ResponseTemperature
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float day;
+    public float night;
+    public float minimum;
+    public float maximum;
+    public float evening;
+    public float morning;
 }

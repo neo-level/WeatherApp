@@ -1,18 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using System;
 
-public class ResponseItem : MonoBehaviour
+[Serializable]
+public class ResponseItem
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public long daytime;
+    public ResponseTemperature temperature;
+    public WeatherItem[] weather;
+    public long sunrise;
+    public long sunset;
 }
